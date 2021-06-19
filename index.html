@@ -2,21 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
-      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/lightbox.min.css" />
     <link rel="stylesheet" href="css/utilities.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Welcome To EdgeLedger</title>
   </head>
   <body id="home">
     <header class="hero">
-      <div id="navbar" class="navbar">
+      <div id="navbar" class="navbar top">
         <h1 class="logo">
           <span class="text-primary"><i class="fas fa-book-open"></i> Edge</span
           >Ledger
@@ -34,7 +35,7 @@
 
       <div class="content">
         <h1>The Sky Is The Limit</h1>
-        <p>We provide world class financial assistent</p>
+        <p>We provide world class financial assistance</p>
         <a href="#about" class="btn"
           ><i class="fas fa-chevron-right"></i> Read More</a
         >
@@ -42,16 +43,16 @@
     </header>
 
     <main>
-      <!-- About:Icons -->
+      <!-- About: Icons -->
       <section id="about" class="icons bg-light">
         <div class="flex-items">
           <div>
             <i class="fas fa-university fa-2x"></i>
             <div>
-              <h3>Investement Banking</h3>
+              <h3>Investment Banking</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
-                iste.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Tempore, iusto!
               </p>
             </div>
           </div>
@@ -60,8 +61,8 @@
             <div>
               <h3>Portfolio Manager</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
-                iste.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Tempore, iusto!
               </p>
             </div>
           </div>
@@ -70,8 +71,8 @@
             <div>
               <h3>Tax & Custodial</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
-                iste.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Tempore, iusto!
               </p>
             </div>
           </div>
@@ -79,7 +80,7 @@
       </section>
 
       <!-- About:Solutions -->
-      <section class="solutions flex-column">
+      <section class="solutions flex-columns">
         <div class="row">
           <div class="column">
             <div class="column-1">
@@ -88,16 +89,17 @@
           </div>
           <div class="column">
             <div class="column-2 bg-primary">
-              <h4>What are you looking for</h4>
+              <h4>What you are looking for</h4>
               <h2>We provide bespoke solutions</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Pariatur, soluta exercitationem. Blanditiis molestias magnam nam
-                recusandae sit ab voluptate voluptatum perferendis similique,
-                esse a nihil quisquam nesciunt tenetur laboriosam sapiente.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+                illum, animi earum ea amet sequi reiciendis sit corporis sunt
+                iusto cupiditate odio maxime adipisci cumque eligendi nemo
+                dolore id itaque?
               </p>
               <a href="#" class="btn btn-outline">
-                <i class="fas fa-chevron-right"></i> Read More
+                <i class="fas fa-chevron"></i>
+                Read More
               </a>
             </div>
           </div>
@@ -110,32 +112,88 @@
           <h4>This is what we do</h4>
           <h2>Business Cases</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla,
-            dolorem.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat,
+            dolore!
           </p>
         </header>
         <div class="row">
           <div class="column">
-            <img src="images/cases/cases1.jpg" alt="" />
-            <img src="images/cases/cases2.jpg" alt="" />
+            <a
+              href="images/cases/cases1.jpg"
+              data-lightbox="cases"
+              data-title="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat,
+              dolore!"
+            >
+              <img src="images/cases/cases1.jpg" alt="" />
+            </a>
+            <a
+              href="images/cases/cases2.jpg"
+              data-lightbox="cases"
+              data-title="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat,
+              dolore!"
+            >
+              <img src="images/cases/cases2.jpg" alt="" />
+            </a>
           </div>
           <div class="column">
-            <img src="images/cases/cases3.jpg" alt="" />
-            <img src="images/cases/cases4.jpg" alt="" />
+            <a
+              href="images/cases/cases3.jpg"
+              data-lightbox="cases"
+              data-title="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat,
+            dolore!"
+            >
+              <img src="images/cases/cases3.jpg" alt="" />
+            </a>
+            <a
+              href="images/cases/cases4.jpg"
+              data-lightbox="cases"
+              data-title="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat,
+              dolore!"
+            >
+              <img src="images/cases/cases4.jpg" alt="" />
+            </a>
           </div>
           <div class="column">
-            <img src="images/cases/cases5.jpg" alt="" />
-            <img src="images/cases/cases6.jpg" alt="" />
+            <a
+              href="images/cases/cases5.jpg"
+              data-lightbox="cases"
+              data-title="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat,
+            dolore!"
+            >
+              <img src="images/cases/cases5.jpg" alt="" />
+            </a>
+            <a
+              href="images/cases/cases6.jpg"
+              data-lightbox="cases"
+              data-title="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat,
+              dolore!"
+            >
+              <img src="images/cases/cases6.jpg" alt="" />
+            </a>
           </div>
           <div class="column">
-            <img src="images/cases/cases7.jpg" alt="" />
-            <img src="images/cases/cases8.jpg" alt="" />
+            <a
+              href="images/cases/cases7.jpg"
+              data-lightbox="cases"
+              data-title="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat,
+            dolore!"
+            >
+              <img src="images/cases/cases7.jpg" alt="" />
+            </a>
+            <a
+              href="images/cases/cases8.jpg"
+              data-lightbox="cases"
+              data-title="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat,
+              dolore!"
+            >
+              <img src="images/cases/cases8.jpg" alt="" />
+            </a>
           </div>
         </div>
       </section>
 
       <!-- Blog -->
-      <section id="blog" class="blog flex-column flex-reverse">
+      <section id="blog" class="blog flex-columns flex-reverse">
         <div class="row">
           <div class="column">
             <div class="column-1">
@@ -144,16 +202,17 @@
           </div>
           <div class="column">
             <div class="column-2 bg-secondary">
-              <h4>April 16 2021</h4>
+              <h4>April 16 2020</h4>
               <h2>Blog Post One</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Pariatur, soluta exercitationem. Blanditiis molestias magnam nam
-                recusandae sit ab voluptate voluptatum perferendis similique,
-                esse a nihil quisquam nesciunt tenetur laboriosam sapiente.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias
+                illum, animi earum ea amet sequi reiciendis sit corporis sunt
+                iusto cupiditate odio maxime adipisci cumque eligendi nemo
+                dolore id itaque?
               </p>
-              <a href="#" class="btn btn-outline">
-                <i class="fas fa-chevron-right"></i> Read Our Blog
+              <a href="blog.html" class="btn btn-outline">
+                <i class="fas fa-chevron"></i>
+                Read Our Blog
               </a>
             </div>
           </div>
@@ -164,10 +223,10 @@
       <section id="team" class="team section-padding">
         <header class="section-header">
           <h4>Who we are</h4>
-          <h2>Our Professonal Team</h2>
+          <h2>Our Professional Team</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla,
-            dolorem.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat,
+            dolore!
           </p>
         </header>
         <div class="flex-items">
@@ -190,7 +249,7 @@
       </section>
 
       <!-- Contact -->
-      <section id="contact" class="contact flex-column">
+      <section id="contact" class="contact flex-columns">
         <div class="row">
           <div class="column">
             <div class="column-1">
@@ -211,7 +270,7 @@
                   />
                 </div>
                 <div class="form-control">
-                  <label for="emial"></label>
+                  <label for="email"></label>
                   <input
                     type="email"
                     name="email"
@@ -238,12 +297,55 @@
 
     <footer class="footer bg-dark">
       <div class="social">
-        <a href=""> <i class="fab fa-facebook fa-2x"></i></a>
-        <a href=""><i class="fab fa-twitter fa-2x"></i></a>
-        <a href=""><i class="fab fa-youtube fa-2x"></i></a>
-        <a href=""><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+        <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
       </div>
-      <p>Copyright &copy; 2021 - EdgeLedger</p>
+      <p>Copyright &copy; 2020 - EdgeLedger</p>
     </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.0.min.js"
+      integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/lightbox.min.js"></script>
+    <script>
+      const navbar = document.getElementById('navbar');
+      let scrolled = false;
+
+      window.onscroll = function () {
+        if (window.pageYOffset > 100) {
+          navbar.classList.remove('top');
+          if (!scrolled) {
+            navbar.style.transform = 'translateY(-70px)';
+          }
+          setTimeout(function () {
+            navbar.style.transform = 'translateY(0)';
+            scrolled = true;
+          }, 200);
+        } else {
+          navbar.classList.add('top');
+          scrolled = false;
+        }
+      };
+
+      // Smooth Scrolling
+      $('#navbar a, .btn').on('click', function (e) {
+        if (this.hash !== '') {
+          e.preventDefault();
+
+          const hash = this.hash;
+
+          $('html, body').animate(
+            {
+              scrollTop: $(hash).offset().top - 100,
+            },
+            800
+          );
+        }
+      });
+    </script>
   </body>
 </html>
